@@ -1,0 +1,11 @@
+{
+  "name": "angular-algorithms-content",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "papaparse": "^4.1.2"
+  }
+}

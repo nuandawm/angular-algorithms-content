@@ -1,0 +1,37 @@
+.app-container {
+  width: 100%;
+}
+
+/* Try it */
+.matrixDiv {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.matrixRow {
+  /*clear: both;*/
+}
+
+.matrixCell {
+  float: left;
+  /*width: 24px;*/
+  padding: 2px;
+  border: 1px solid gray;
+  text-align: center;
+  font-family: monospace;
+}
+
+br.clear-both {
+  clear: both;
+}
+
+.covered {
+  background: green;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {text-align: center;}
