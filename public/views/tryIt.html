@@ -8,15 +8,15 @@
 <div class="row">
   <div class="col-md-offset-4 col-md-4 col-xs-12 text-center">
     <label class="radio-inline">
-      <input type="radio" name="inputType" class="input-type" value="json"/> JSON
+      <input type="radio" name="inputType" class="input-type" value="json" ng-model="inputType"/> JSON
     </label>
     <label class="radio-inline">
-      <input type="radio" name="inputType" class="input-type" value="csv"/> CSV
+      <input type="radio" name="inputType" class="input-type" value="csv" ng-model="inputType"/> CSV
     </label>
   </div>
 </div>
 <div class="row">
-  <textarea id="json-matrix-input" class="col-md-offset-4 col-md-4 col-xs-12" rows="8"></textarea>
+  <textarea id="json-matrix-input" class="col-md-offset-4 col-md-4 col-xs-12" rows="8" ng-model="inputMatrixStr"></textarea>
 </div>
 
 <div class="panel-group" id="results-accordion"></div>

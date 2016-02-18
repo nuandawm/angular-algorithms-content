@@ -344,20 +344,20 @@ $(document).on('tryIt',function(){
   var mainCtrl = new MainController('http://localhost:8080/api/hungarian/findAssignments');
   
   // Change events
-  $('#json-matrix-input').change(function(){
+  /*$('#json-matrix-input').change(function(){
     hungarianContext.set('inputMatrixStr',$(this).val());
-  });
-  $('.input-type').change(function(){
+  });*/
+  /*$('.input-type').change(function(){
     mainCtrl.switchInputType(hungarianContext.get('inputType'),$(this).val());
     hungarianContext.set('inputType',$(this).val());
-  });
+  });*/
   
   /*$('#launch-butt').click(function(){
     mainCtrl.sendMatrixToServer();
   });*/
   
   // Example matrix
-  var randomMatrix = [];
+  /*var randomMatrix = [];
   // Generate random matrix
   var dim = 7;
   for (var i=0; i<dim; i++) {
@@ -365,10 +365,10 @@ $(document).on('tryIt',function(){
     for (var j=0; j<dim; j++) {
       randomMatrix[i].push(Math.floor(Math.random()*50)+1);
     }
-  }
-  hungarianContext.set('inputMatrixStr',JSON.stringify(randomMatrix));
-  hungarianContext.set('inputType',JSON_METHOD);
+  }*/
+  //hungarianContext.set('inputMatrixStr',JSON.stringify(randomMatrix));
+  //hungarianContext.set('inputType',JSON_METHOD);
   
-  PageView.renderInputMatrixField();
-  PageView.renderInputTypeField();
+  //PageView.renderInputMatrixField();
+  //PageView.renderInputTypeField();
 });
